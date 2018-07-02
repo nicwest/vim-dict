@@ -34,8 +34,8 @@ the word under cursor that you can bind as needed. These are the binds I'm
 currently using:
 
 ```viml
-nmap <Leader>dd     <Plug>DictdDictionary
-nmap <Leader>dt     <Plug>DictdThesaurus
+nmap <Leader>dd     <Plug>DictDictionary
+nmap <Leader>dt     <Plug>DictThesaurus
 ```
 
 Installing Dict
