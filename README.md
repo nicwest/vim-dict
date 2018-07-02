@@ -17,6 +17,15 @@ Usage
 :Thesaurus {word}
 ```
 
+The following global vars can be used to control defaults:
+
+```viml
+let g:dict_dict_binary = 'dict'
+let g:dict_default_database = 'wn'
+let g:dict_default_thesaurus_database = 'moby-thesaurus'
+```
+
+
 Suggested Mappings
 ------------------
 
@@ -25,8 +34,8 @@ the word under cursor that you can bind as needed. These are the binds I'm
 currently using:
 
 ```viml
-nnoremap <Leader>dd     <Plug>DictdDictionary
-nnoremap <Leader>dt     <Plug>DictdThesaurus
+nmap <Leader>dd     <Plug>DictdDictionary
+nmap <Leader>dt     <Plug>DictdThesaurus
 ```
 
 Installing Dict
